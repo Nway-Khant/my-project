@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    display: grid;
+}
+  .room two-room{
+    display: none;
+  }
+  
+  .room:hover .one-room{
+    display: none;
+  }
+  
+  .room:hover .two-room{
+    display: inline;
+  }
+
+  .hi{
+    width: 300px;
+    height: 300px;
+  }
+  
